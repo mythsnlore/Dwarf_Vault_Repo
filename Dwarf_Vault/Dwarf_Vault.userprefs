@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Cam_and_Render\CamFollow.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Cam_and_Render\FadeByY.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Cam_and_Render\CamFollow.cs" Line="57" Column="13" />
+      <File FileName="Assets\Scripts\NavigateToTarget.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GoHere.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

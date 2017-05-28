@@ -52,7 +52,8 @@
      <Compile Include="Assets\Scripts\AI\GOAP\GoapAgent.cs" />
      <Compile Include="Assets\Scripts\AI\GOAP\GoapPlanner.cs" />
      <Compile Include="Assets\Scripts\AI\GOAP\IGoap.cs" />
-     <Compile Include="Assets\Scripts\CamFollow.cs" />
+     <Compile Include="Assets\Scripts\Cam_and_Render\CamFollow.cs" />
+     <Compile Include="Assets\Scripts\Cam_and_Render\FadeByY.cs" />
      <Compile Include="Assets\Scripts\Creature.cs" />
      <Compile Include="Assets\Scripts\GameData\Actions\ChopFirewoodAction.cs" />
      <Compile Include="Assets\Scripts\GameData\Actions\ChopTreeAction.cs" />

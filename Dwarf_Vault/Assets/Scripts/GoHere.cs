@@ -3,23 +3,29 @@ using System.Collections;
 
 public class GoHere : MonoBehaviour {
 
-	void Update () 
+    public bool hasTarget;
+
+    void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+       hasTarget = FindObjectOfType<Camera>().GetComponentInParent<CamFollow>().following;
+
+        if (Input.GetMouseButtonDown(0))
         {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit))
+            if (hasTarget == true)
             {
-                if (hit.collider != null)
+                RaycastHit hit;
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out hit))
                 {
-                    if (hit.transform.gameObject.tag == "Ground")
+                    if (hit.collider != null)
                     {
-                        transform.position = new Vector3(hit.point.x, transform.position.y, hit.point.z);
+                        if (hit.transform.gameObject.tag == "Ground")
+                        {
+                            transform.position = new Vector3(hit.point.x, transform.position.y, hit.point.z);
+                        }
                     }
                 }
-                    
             }
         }
-	}
+    }
 }
