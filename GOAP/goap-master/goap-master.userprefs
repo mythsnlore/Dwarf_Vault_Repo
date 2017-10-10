@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp-firstpass.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\GameData\Actions\FeedCampfireAction.cs">
+    <Files>
+      <File FileName="Assets\Standard Assets\Scripts\GameData\Labourers\Blacksmith.cs" Line="60" Column="29" />
+      <File FileName="Assets\Standard Assets\Scripts\GameData\Actions\WaitABitAction.cs" Line="45" Column="85" />
+      <File FileName="Assets\Standard Assets\Scripts\GameData\BodyComponent.cs" Line="15" Column="37" />
+      <File FileName="Assets\Standard Assets\Scripts\GameData\Actions\FeedCampfireAction.cs" Line="79" Column="6" />
+      <File FileName="Assets\Standard Assets\Scripts\GameData\NodeCheck.cs" Line="14" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
